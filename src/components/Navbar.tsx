@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 import { FiSearch } from 'react-icons/fi';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
   const pathname = usePathname();
 
   const navigation = [
