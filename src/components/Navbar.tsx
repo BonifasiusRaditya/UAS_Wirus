@@ -7,7 +7,7 @@ import { FiSearch } from 'react-icons/fi';
 
 const Navbar = () => {
   const pathname = usePathname();
-
+// dummy
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'New Order', href: '/order' },
