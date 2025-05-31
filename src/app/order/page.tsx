@@ -58,6 +58,11 @@ export default function OrderPage() {
                     <p className="pl-1">or drag and drop</p>
                   </div>
                   <p className="text-xs text-gray-500">STL, OBJ, or 3MF up to 50MB</p>
+                  {file && (
+                    <p className="text-sm text-blue-600 mt-2">
+                      Selected file: {file.name}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
