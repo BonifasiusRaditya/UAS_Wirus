@@ -10,7 +10,7 @@ export default function OrderPage() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-3xl font-bold mb-8">Create New Order</h1>
+        <h1 className="text-3xl font-bold text-black mb-8">Create New Order</h1>
         
         <div className="bg-white rounded-xl shadow-lg p-6">
           <form className="space-y-6">
